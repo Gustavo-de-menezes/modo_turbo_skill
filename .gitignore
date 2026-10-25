@@ -1,0 +1,7 @@
+historico.json
+*.log
+*.bak.py
+__pycache__/
+*.pyc
+.env
+modo_turbo.vbs

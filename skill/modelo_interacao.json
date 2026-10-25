@@ -1,0 +1,90 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "modo turbo",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": ["sair", "fechar", "desligar"]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": ["parar", "encerrar", "tchau", "obrigado", "só isso"]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": ["não", "não quero", "nada", "mais nada", "não obrigado"]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": ["sim", "quero", "claro", "outra pergunta"]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "LimparMemoriaIntent",
+                    "samples": [
+                        "limpar memória",
+                        "apagar memória",
+                        "esquece tudo",
+                        "esqueça tudo",
+                        "começar de novo",
+                        "nova conversa"
+                    ]
+                },
+                {
+                    "name": "PesquisaIntent",
+                    "slots": [
+                        { "name": "query", "type": "AMAZON.SearchQuery" }
+                    ],
+                    "samples": [
+                        "pesquise {query}",
+                        "pesquisa na internet {query}",
+                        "procure na internet {query}",
+                        "busque {query}"
+                    ]
+                },
+                {
+                    "name": "PerguntaIntent",
+                    "slots": [
+                        { "name": "query", "type": "AMAZON.SearchQuery" }
+                    ],
+                    "samples": [
+                        "me diga {query}",
+                        "me fala {query}",
+                        "me responde {query}",
+                        "diga {query}",
+                        "fale sobre {query}",
+                        "explica {query}",
+                        "explique {query}",
+                        "como funciona {query}",
+                        "como fazer {query}",
+                        "qual é {query}",
+                        "quais são {query}",
+                        "o que é {query}",
+                        "o que são {query}",
+                        "quem é {query}",
+                        "quem foi {query}",
+                        "sobre {query}",
+                        "pergunta {query}",
+                        "responde {query}",
+                        "quem {query}",
+                        "qual {query}",
+                        "como {query}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

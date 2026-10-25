@@ -1,0 +1,4 @@
+Set sh = CreateObject("WScript.Shell")
+sh.CurrentDirectory = "C:\AlexaIA"
+sh.Run "cmd /c python -u C:\AlexaIA\servidor_alexa.py > C:\AlexaIA\servidor.log 2>&1", 0, False
+sh.Run "cmd /c ngrok http 5000 --url=https://SEU-DOMINIO.ngrok-free.dev --log=stdout > C:\AlexaIA\ngrok.log 2>&1", 0, False
